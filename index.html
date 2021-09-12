@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Udemy course registration form</title>
+    <link rel="shortcut icon" href="images/udemy_logo_icon_168372.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="js/scripts.js"></script>
 </head>
 <body>
     <div class="container">
-        <button type="button" onclick="WelcomeButton()">A welcome message<br>(Click here)</button>
+        <button type="button" onclick="WelcomeButton()">A welcome message<br><b>(Click here)</b></button>
+        <img src="images/default-meta-image-v2.png" alt="This is a udemy logo">
     <form action="#" method="GET">
         <h1>Registration form:</h1>
         <hr>
@@ -32,16 +34,16 @@
             </select><br>
         </fieldset>
         <p>1. Which programming language do you want to learn?</p>
-        <input type="checkbox" id="html" name="html" value="html">
+        <input type="checkbox" id="html" name="programming-language" value="html" checked>
         <label for="html">HTML</label><br>
-        <input type="checkbox" id="css" name="css" value="css">
+        <input type="checkbox" id="css" name="programming-language" value="css">
         <label for="css">CSS</label><br>
-        <input type="checkbox" id="js" name="js" value="js">
+        <input type="checkbox" id="js" name="programming-language" value="js">
         <label for="js">JavaScript</label><br>
         <p>2. Which batch time do you want to choose?</p>
-        <input type="radio" id="am" name="am" value="am">
+        <input type="radio" id="am" name="time" value="am" checked> 
         <label for="am">8 a.m. to 10 a.m.</label><br>
-        <input type="radio" id="pm" name="pm" value="pm">
+        <input type="radio" id="pm" name="time" value="pm">
         <label for="pm">8 p.m. to 10 p.m.</label><br> <br>
         <label for="browser">3. Which browser are you using now?</label>
         <input list="browsers" id="browser" name="browser">

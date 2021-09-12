@@ -7,6 +7,17 @@ body{
     padding: 22px;
     font-size: larger;
 }
+button{
+    width: 30%;
+    height: 50px;
+    font-size: 17px;
+    background-color: aqua;
+}
+img{
+    width: 35%;
+    float: right;
+    margin-top: -22px;
+}
 hr{
     margin-bottom: 25px;
 }
